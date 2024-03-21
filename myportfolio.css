@@ -1,0 +1,704 @@
+*{
+    margin: 0px;
+    list-style-type:none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body
+{
+    padding-top: 70px;
+}
+.slideInLeft {
+    animation: slideInLeft 1s ease forwards;
+}
+
+.slideInRight {
+    animation: slideInRight 1s ease forwards;
+}
+
+.fadeInUp {
+    animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.myname
+{
+    font-size: larger;
+}
+.gobutton {
+    display: inline-block;
+    margin-top: 20px auto;
+}
+.material-symbols-outlined
+{
+    margin-left: 2vh;
+}
+nav
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    max-width: 100%   
+}
+.cointainer
+{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    float: right;
+    font-size: 20px;
+}
+nav ul
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    float: right;
+    flex-wrap: nowrap;
+}
+.contenthome
+{
+    margin-top: 20px;
+    text-align: center;
+}
+img
+{
+    border-radius: 60px;
+}
+.mainclass
+{
+    padding: 20px;
+}
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover
+{
+    color: yellow;
+}
+.image
+{
+    padding-top: 60px;
+    height: auto;
+    background-color:bisque;
+    display: flex;
+    float: left;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+#aboutmeidtext
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.textalignment
+{
+    text-align: center;
+    font-size: 35px;
+}
+.Skills
+{
+    padding-top: 60px;
+    background-color: honeydew;
+    font-size: 20px;
+    margin-top: 30px;
+    height: 85vh;
+}
+.skillnav
+{
+    margin-top: 3vh;
+    display: flex;
+}
+.skillitem
+{
+    margin-right: 15px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+    width: 33%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px;
+}
+.skilllogo
+{
+    height: 100px;
+}
+.projectitem
+{
+    margin-top: 3vh;
+    margin-left: 5vh;
+    border: 2px solid black;
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    height: 50vh;
+    box-shadow: 3px 3px 3px 3px;
+    border-radius: 10px;
+}
+.education
+{
+    padding-top: 60px;
+    margin-top: 30px;
+    background-color:seashell;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+}
+.educationitem {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 25px;
+    height: 275px;
+    max-width: 400px; 
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px;
+    border: 2px solid black;
+}
+.Projects
+{
+    padding-top: 60px;
+    margin-top: 30px;
+    background-color:peachpuff;
+    height: 95vh;
+}
+#leftele
+{
+    display: inline-block;
+    padding-right: 15px;
+}
+#rightele
+{
+    display: inline-block;
+}
+.schoollogo
+{
+    height: 118px;
+    margin-top: 15px;
+}
+.colledgelogo
+{
+    height: 100px;
+    margin-top: 15px;
+}
+.Contactus
+{
+    padding-top: 60px;
+    margin-top: 30px;
+    background-color: rgb(245, 245, 220);
+}
+.contentclass
+{
+    line-height: 5vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+.animationbar
+{
+    width: 100%;
+    border: 2px solid black;
+    height: 550px;
+}
+.page
+{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height:550px;
+    border-radius: none;
+}
+#titleimg
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+#projectmain img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+#skillsmain img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+#educationmain img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+#contactmain img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+#aboutmeid
+{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 2px solid black;
+}
+.homepagecontent{
+    font-size: 30px;
+    color: white;
+    width: 50%;
+    position: absolute;
+    padding: 10px;
+    top: 100px;
+    left: 36px;
+}
+.myimg {
+    border-radius:100px;
+    position: absolute;
+    top: 50%;
+    margin-left: 60vh;
+    transform: translateY(-55%);
+    box-shadow: 3px 3px 3px 3px;
+    margin-bottom: 60px;
+    margin-top: 18vh;
+    width: 60%;
+}
+.educationpagecontent{
+    font-size: 25px;
+    color: white;
+    width: 50%;
+    position: absolute;
+    padding: 10px;
+    top: 100px;
+    right: 36px;
+    float: right;
+}
+.skillspagecontent{
+    font-size: 20px;
+    color: white;
+    width: 35%;
+    position: absolute;
+    padding: 10px;
+    top: 100px;
+    right: 36px;
+    float: right;
+}
+.projectpagecontent{
+    font-size: 20px;
+    color: white;
+    width: 35%;
+    position: absolute;
+    padding: 10px;
+    top: 100px;
+    right: 50px;
+    float: right;
+}
+.contactuscontent{
+    font-size: 22px;
+    color: white;
+    width: 35%;
+    position: absolute;
+    padding: 10px;
+    top: 100px;
+    left: 20vh;
+    float: left;
+}
+.homepagebutton
+{
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.homepagebutton:hover
+{
+    /*
+    cursor: pointer;
+    color: green;*/
+    background-color: white;
+    color: black;
+    border-color: white;
+    cursor: pointer;
+}
+.homepagebutton:focus {
+    outline: none;
+}
+.educationpagebutton
+{
+    margin-top: 15px;
+    padding:10px;
+    background-color: rgb(211, 211, 28);
+    font-weight: bold;
+    height: 10vh;
+    border-radius: 10px;
+}
+.skillpagebutton
+{
+    margin-top: 15px;
+    padding:10px;
+    background-color: rgb(211, 211, 28);
+    font-weight: bold;
+    height: 10vh;
+    border-radius: 10px;
+}
+.projectpagebutton
+{
+    margin-top: 15px;
+    padding:10px;
+    background-color: rgb(211, 211, 28);
+    font-weight: bold;
+    height: 10vh;
+    border-radius: 10px;
+}
+.contactpagebutton
+{
+    margin-top: 15px;
+    padding:10px;
+    background-color: rgb(211, 211, 28);
+    font-weight: bold;
+    height: 10vh;
+    border-radius: 10px;
+}
+#leftele:hover
+{
+    cursor: pointer;
+}
+#rightele:hover
+{
+    cursor: pointer;
+}
+#linked:hover
+{
+    color: inherit;
+    text-decoration: none;   
+}
+#linkedright:hover
+{
+    color: inherit;
+    text-decoration: none;   
+}
+.webdevpro
+{
+    display:flex;
+    flex-direction: row;
+    margin: 0 auto; 
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+    font-size:larger;
+    border-radius: 8px;
+}
+.webhead
+{
+    height: min-content;
+    width: 100%;
+    font-size: x-large;
+    margin-bottom: 2vh;
+}
+.projectnav
+{
+    display: flex;
+}
+.imagemusic
+{
+    height: 15vh;
+    border-radius: 0px;
+    margin-right: 5vh;
+}
+#chatlogo
+{
+    height: 18vh;
+    margin-left: 0vh;
+}
+#musicplayerid:hover
+{
+    color: chocolate;
+}
+#chatappid:hover
+{
+    color: chocolate;
+}
+#quizlogo
+{
+    background-color: black;
+    height: 18vh;
+    margin-left: 0vh;
+    border-radius: 8px;
+}
+.formgrp
+{
+    margin-top: 5px;
+    text-align: center;
+}
+.footer
+{
+    margin-top:3vh;
+    color:white;
+    background-color:black;
+    border-radius: 10px;
+    width: 100%;
+}
+#downfoot
+{
+    font-size: 20px;
+}
+.labelinfo2
+{
+    margin-top: 1vh;
+    margin-right: 1vh;
+}
+#emailinp
+{
+    padding-right: 10vh;
+}
+#instagramlogo
+{
+    margin: 0;
+    padding-right: 1vh;
+    border-radius:15px;
+    height: 40px;
+}
+#linkedinlogo
+{
+    margin-left: 2vh;
+    border-radius: 10px;
+    height: 40px;
+}
+#textbox {
+    width: 100%; 
+    max-width: 800px; 
+    height: 200px; 
+    overflow-x: auto; 
+    margin: 0 auto; 
+    padding: 10px; 
+    font-size: 16px; 
+    text-align: center; 
+}
+.formgrp {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.formcontent {
+    padding: 20px;
+    box-shadow: 4px 4px 4px 4px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    animation: slideIn 1s ease-in-out;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.labelinfo {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 920px) {
+    body
+    {
+        width: 100%;
+    }
+    nav
+    {
+        flex-direction: column; 
+        align-items: flex-start; 
+        height: auto; 
+        padding: 20px 0; 
+        background-color: none;
+    }
+    .cointainer {
+        justify-content: center;
+        max-width: 502px;
+        width: fit-content;
+    }
+    .myimg
+    {
+        width: fit-content;
+    }
+    .educationpagecontent, .skillspagecontent{
+        width: 100%;
+        margin: 0 auto; 
+        padding: 10px;
+        font-size: 18px; 
+        text-align: center; 
+    }
+    .homepagecontent
+    {
+        left: 1vh;
+        width: 100%;
+        margin: 0 auto; 
+        padding: 10px;
+        font-size: 15px; 
+        text-align: center; 
+    }
+    .projectpagecontent
+    {
+        width: 100%;
+        margin: 0 auto; 
+        padding: 10px;
+        font-size: 15px; 
+        text-align: center; 
+    }
+    .contactuscontent
+    {
+        left: 1vh;
+        width: 100%;
+        margin: 0 auto; 
+        padding: 8px;
+        font-size: 15px; 
+        text-align: left; 
+    }
+    .education, .Skills, .Projects, .Contactus {
+        margin-top: 10px; 
+    }
+
+    .projectitem, .educationitem, .skillitem {
+        width: 90%; 
+        margin: 0 auto; 
+        margin-bottom: 20px; 
+        padding: 15px; 
+    }
+    nav ul
+    {
+        background-color: black;
+        flex-direction: column;
+        text-align: center;
+        width:1200px;
+    }
+    nav ul li
+    {
+        padding: 10px 0;
+    }
+    .footer {
+        padding: 10px; 
+        font-size: 16px; 
+        text-align: center; 
+    }
+    .page img {
+        width: 100%; 
+        height: auto; 
+    }
+    .Skills
+    {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .skillnav
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .Projects
+    {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .projectnav
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .Contactus
+    {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .textboxalign
+    {
+        align-items: center;
+        width: 70%;
+        max-width: 50%;
+    }
+    #textlabel
+    {
+        float: left;
+        text-align: left;
+    }
+}
+.subtitle
+{
+    margin-top: 5px;
+    font-size: medium;
+}
