@@ -306,7 +306,7 @@ a:hover
     border-radius:100px;
     position: absolute;
     top: 50%;
-    margin-left: 60vh;
+    margin-left: 60%;
     transform: translateY(-55%);
     box-shadow: 3px 3px 3px 3px;
     margin-bottom: 60px;
@@ -498,6 +498,10 @@ a:hover
 {
     font-size: 20px;
 }
+#downfootup
+{
+    font-size: 20px;
+}
 .labelinfo2
 {
     margin-top: 1vh;
@@ -571,131 +575,63 @@ a:hover
 .btn:hover {
     background-color: #0056b3;
 }
-
-@media screen and (max-width: 920px) {
-    body
+@media screen and (max-width: 798px){
+    nav
     {
         width: 100%;
     }
-    nav
+    .education
     {
-        flex-direction: column; 
-        align-items: flex-start; 
-        height: auto; 
-        padding: 20px 0; 
-        background-color: none;
-    }
-    .cointainer {
-        justify-content: center;
-        max-width: 502px;
-        width: fit-content;
+        padding-bottom: 5%;
     }
     .myimg
     {
-        width: fit-content;
+        position: absolute;
+        width: 65%;
+        top: 30%;
+        margin-right: 10%;
+        margin-left: 60%;
     }
-    .educationpagecontent, .skillspagecontent{
+    #downfootup
+    {
+        font-size: 20px;
         width: 100%;
-        margin: 0 auto; 
-        padding: 10px;
-        font-size: 18px; 
-        text-align: center; 
+        margin-left: 1%;
+        margin-right: 5%;
     }
-    .homepagecontent
-    {
-        left: 1vh;
-        width: 100%;
-        margin: 0 auto; 
-        padding: 10px;
-        font-size: 15px; 
-        text-align: center; 
-    }
-    .projectpagecontent
-    {
-        width: 100%;
-        margin: 0 auto; 
-        padding: 10px;
-        font-size: 15px; 
-        text-align: center; 
-    }
-    .contactuscontent
-    {
-        left: 1vh;
-        width: 100%;
-        margin: 0 auto; 
-        padding: 8px;
-        font-size: 15px; 
-        text-align: left; 
-    }
-    .education, .Skills, .Projects, .Contactus {
-        margin-top: 10px; 
-    }
-
-    .projectitem, .educationitem, .skillitem {
-        width: 90%; 
-        margin: 0 auto; 
-        margin-bottom: 20px; 
-        padding: 15px; 
-    }
-    nav ul
-    {
-        background-color: black;
-        flex-direction: column;
-        text-align: center;
-        width:1200px;
-    }
-    nav ul li
-    {
-        padding: 10px 0;
-    }
-    .footer {
-        padding: 10px; 
-        font-size: 16px; 
-        text-align: center; 
-    }
-    .page img {
-        width: 100%; 
-        height: auto; 
-    }
-    .Skills
+    .Projects
     {
         height: fit-content;
+        padding-bottom: 5%;
+    }
+    .projectnav
+    {
         display: flex;
+        align-items: center;
         flex-direction: column;
+    }
+    .projectitem
+    {
+        width: 50%;  
     }
     .skillnav
     {
         display: flex;
         flex-direction: column;
-    }
-    .Projects
-    {
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-    }
-    .projectnav
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    .Contactus
-    {
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-    }
-    .textboxalign
-    {
         align-items: center;
-        width: 70%;
-        max-width: 50%;
+        justify-content: center;
     }
-    #textlabel
+    .skillitem
     {
-        float: left;
-        text-align: left;
+        width: 50%;
+        margin-top: 5%;
     }
+    .Skills
+    {
+        height: fit-content;
+        padding-bottom: 4%;
+    }
+
 }
 .subtitle
 {
